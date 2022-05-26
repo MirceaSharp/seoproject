@@ -79,9 +79,9 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form  id="form_1" fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label >
 							Name
 						</label>
 						<input id="name" class="form-control" required />
@@ -90,7 +90,8 @@
 						<label>
 							Email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" pattern=".+@email\.com" class="form-control" type="email" required  
+						title="Please provide only a My Company email address"/>
 					</div>
 					<div class="form-group">
 						<label>

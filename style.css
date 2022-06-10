@@ -14,8 +14,9 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration:none;
     cursor: pointer;
+    color: #ce1111;
 }
 
 #page-loading-blocs-notifaction {
@@ -455,6 +456,8 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
+
+
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
@@ -653,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #7e8d86;
+    color: #c7a22a;
 }
 
 .container {

@@ -653,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: #7e8d86;
 }
 
 .container {
@@ -761,7 +761,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration:underline!important;
 }
 
 .service-header {
